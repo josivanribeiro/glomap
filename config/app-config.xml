@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+  <smtp.debug>0</smtp.debug>
+  <smtp.host>smtp.glomap.org.br</smtp.host>
+  <smtp.username>contato@glomap.org.br</smtp.username>
+  <smtp.pwd>tivo690.</smtp.pwd>
+  <smtp.from.name>GLOMAP | Contato</smtp.from.name>
+  <smtp.from>contato@glomap.org.br</smtp.from>
+  <smtp.to>contato@glomap.org.br</smtp.to>
+  <smtp.subject>GLOMAP | Contato enviado pelo site</smtp.subject>
+  <db.type>mysql</db.type>
+  <db.host>mysql01.glomap1.hospedagemdesites.ws</db.host>
+  <db.port>3306</db.port>
+  <db.user>glomap1</db.user>
+  <db.pwd>vop1opw159</db.pwd>
+  <db.name>glomap1</db.name>
+  <!-- 1 MB = 1000000 -->
+  <file.upload.max.size>10000000</file.upload.max.size>
+  <file.upload.folder>../../console/resources/images/upload/</file.upload.folder>
+  <notices.documents.upload.folder>../../../noticesAndDocuments/</notices.documents.upload.folder>
+  <balancesheet.pm.upload.folder>../../../balanceSheetPm/</balancesheet.pm.upload.folder>
+  <balancesheets.upload.folder>../../../balanceSheets/</balancesheets.upload.folder>
+  <notices.documents.keyword>finn56</notices.documents.keyword>
+  <balancesheet.pm.keyword>finn88</balancesheet.pm.keyword>  
+  <file.upload.thumb.folder>../../console/resources/images/upload/thumb/</file.upload.thumb.folder>
+  <file.upload.page.folder>../../resources/images/upload/</file.upload.page.folder>
+  <file.upload.page.thumb.folder>../../resources/images/upload/thumb/</file.upload.page.thumb.folder>
+  <home.cover.folder>../../resources/images/cover/</home.cover.folder>
+  
+</config>

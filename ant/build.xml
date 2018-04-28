@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<project name="glomap" basedir=".." default="usage">
+    <property file="build.properties"/>
+    <property name="web.dir" value="."/>
+	<property name="app.name" value="glomap"/>
+
+    <target name="usage">
+        <echo message=""/>
+        <echo message="${app.name} build file"/>
+        <echo message="-----------------------------------"/>
+        <echo message=""/>
+        <echo message="Available targets are:"/>
+        <echo message=""/>
+    	<echo message="deploy    --> Deploys the PHP web application on the localhost."/>
+		<echo message="undeploy  --> Undeploy the PHP web application."/>
+		<echo message="update-config-files --> Updates the app-config.xml."/>
+		<echo message=""/>
+    </target>
+	
+	<target name="deploy" description="Deploys the PHP web application on the localhost.">
+	    <!-->mkdir dir="${localhost.app.dir}"/-->
+    	<copy todir="${localhost.app.dir}">
+    	   <fileset dir="${web.dir}" excludes="**/*.svn, **/*.buildpath, **/*.project, **/.settings/**, **/ant/**, **/config/**, **/*.properties"/>
+    	</copy>
+	</target>
+	
+	<target name="undeploy" description="Undeploy the PHP web application.">
+		<delete dir="${localhost.app.dir}"/>
+	</target>
+	
+	<target name="update-config-files" description="Updates the config files on the localhost.">
+	    <copy todir="${localhost.app.config.dir}">
+    	   <fileset dir="${web.dir}/config" excludes="**/*.svn"/>
+    	</copy>
+	</target>
+	    
+</project>

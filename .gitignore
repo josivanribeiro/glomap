@@ -1,0 +1,7 @@
+.settings
+.classpath
+.buildpath
+
+# Log file
+*.log
+

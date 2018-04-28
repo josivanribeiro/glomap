@@ -1,0 +1,15 @@
+[{
+	"containerId": "cnt_Intro_PalavraGraoMestre",
+	"containerValue": "Palavra do Grão-Mestre",
+	"containerLinkId": "lnk_Intro_PalavraGraoMestre",
+	"containerLinkText": "Leia o texto: Irmãos,vamos à luta contra o Zika Vírus!",
+	"containerLinkHref": "content.php?id=2&type=1",
+	"containerLinkTarget": ""
+}, {
+	"containerId": "cnt_Intro_ArtigosIrmaos",
+	"containerValue": "Artigos de Irmãos",
+	"containerLinkId": "lnk_Intro_ArtigosIrmaos",
+	"containerLinkText": "Leia o texto: Augusta e Respeitável Loja Simbólica Renascença Amapaense Nº 6.",
+	"containerLinkHref": "content.php?id=6&type=3",
+	"containerLinkTarget": ""
+}]
